@@ -1,0 +1,113 @@
+body {
+  height: 1800px;
+}
+.App {
+  text-align: center;
+
+}
+.bc-header {
+  background-color: #282c34;
+  width: 100%;
+}
+.App-header {
+  max-width: 1140px;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+.App-main {
+  max-width: 1140px;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.App-main div {
+  margin-top: 50px;
+}
+h5 {
+  margin: 0px;
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.images {
+  width: 250px;
+  height: 250px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration-line: none;
+}
+
+.remove {
+  background-color: rgb(218, 53, 53);
+}
+
+.card {
+  box-shadow: 0px 0px 20px 15px rgba(9, 169, 233, 0.3);
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+}
+.add {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  border-width: 1px;
+}
+
+.add:hover {
+  background-color: rgba(9, 169, 233, 0.3);
+  cursor: pointer;
+  border-width: 2.5px;
+  transition: 0.3s;
+}
+
+.add:disabled {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  border-width: 1px;
+  cursor: default;
+}
+
+.remove {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  border-width: 1px;
+}
+.remove:hover {
+  background-color: rgba(255, 38, 0, 1);
+  cursor: pointer;
+  border-width: 2.5px;
+  transition: 0.3s;
+}
